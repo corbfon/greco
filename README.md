@@ -33,11 +33,11 @@ A CLI tool to clone GitHub repositories listed in a CSV file.
 
 ### Install the Package Globally
 
-1. Open your terminal (Command Prompt on Windows, Terminal on macOS).
-2. Navigate to the directory where you downloaded/cloned the repository.
-3. Install the package globally using npm:
+1. Open your terminal (Command Prompt on Windows, Terminal on macOS) in the directory of the cloned repository.
+2. Install the package globally using npm:
 
 ```bash
+npm install
 npm install -g .
 ```
 
