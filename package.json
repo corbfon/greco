@@ -1,0 +1,22 @@
+{
+  "name": "greco",
+  "version": "1.0.0",
+  "description": "A CLI tool to clone GitHub repositories listed in a CSV file.",
+  "main": "index.js",
+  "bin": {
+    "gh-repo-cloner": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "corbfon <corbin.fonville@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "csv-parser": "^3.0.0",
+    "simple-git": "^3.25.0"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  }
+}
